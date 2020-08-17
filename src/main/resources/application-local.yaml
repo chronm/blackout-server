@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1/blackout?createDatabaseIfNotExist=true&user=root&password=secret
+
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
